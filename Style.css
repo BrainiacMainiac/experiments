@@ -69,7 +69,12 @@ h2 {
     height: 70px;
     width: 70px;
 }
-.mailicon, .githubicon, .googleplusicon:hover {
-    animation-name: icons;
-    animation-delay: 1s;
+githubicon:hover {
+    animation: 1s icons;
+}
+googleplusicon:hover {
+    animation: 1s icons;
+}
+mailicon:hover {
+    animation: 1s icons;
 }
