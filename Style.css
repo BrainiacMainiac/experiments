@@ -76,13 +76,13 @@ h2 {
     width: 70px;
 }
 githubicon:hover {
-    animation: 1s icons;
+    -webkit-animation: 1s icons;
 }
 googleplusicon:hover {
-    animation: 1s icons;
+    -webkit-animation: 1s icons;
 }
 mailicon:hover {
-    animation: 1s icons;
+    -webkit-animation: 1s icons;
 }
 ul {
   padding: 0px;
