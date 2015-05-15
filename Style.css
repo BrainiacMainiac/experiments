@@ -77,19 +77,22 @@ h2 {
 }
 .githubicon:hover {
     animation-name:icons;
-    animation-duration: 0.5s;
+    animation-duration: 1s;
+    animation-direction: reverse;
     -webkit-filter: invert(100%);
     filter: invert(100%);
 }
 .googleplusicon:hover {
     animation-name:icons;
-    animation-duration: 0.5s;
+    animation-duration: 1s;
+    animation-direction: reverse;
     -webkit-filter: invert(100%);
     filter: invert(100%);
 }
 .mailicon:hover {
     animation-name:icons;
-    animation-duration: 0.5s;
+    animation-duration: 1s;
+    animation-direction: reverse;
     -webkit-filter: invert(100%);
     filter: invert(100%);
 }
