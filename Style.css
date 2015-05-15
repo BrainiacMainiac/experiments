@@ -23,7 +23,7 @@ h2 {
         width: 0%
     }
     100% {
-        width: 35%
+        width: 25%
     }
 }
 @keyframes divider {
@@ -31,7 +31,7 @@ h2 {
         width: 0%
     }
     100% {
-        width: 35%
+        width: 25%
     }
 }
 @-webkit-keyframes icons {
@@ -58,7 +58,7 @@ h2 {
     align-self: center;
     animation-name: divider;
     animation-duration: 2s;
-    width: 35%;
+    width: 25%;
     border: solid 1px black;
 }
 .icons {
