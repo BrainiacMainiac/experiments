@@ -84,3 +84,6 @@ googleplusicon:hover {
 mailicon:hover {
     animation: 1s icons;
 }
+ul {
+  padding: 0px;
+}
