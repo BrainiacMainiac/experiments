@@ -75,15 +75,15 @@ h2 {
     height: 70px;
     width: 70px;
 }
-githubicon:hover {
+.githubicon:hover {
     animation-name:icons;
     animation-duration: 1s;
 }
-googleplusicon:hover {
+.googleplusicon:hover {
     animation-name:icons;
     animation-duration: 1s;
 }
-mailicon:hover {
+.mailicon:hover {
     animation-name:icons;
     animation-duration: 1s;
 }
