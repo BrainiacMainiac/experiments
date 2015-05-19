@@ -1,0 +1,46 @@
+<!-- A site I made a long time ago to learn JS. You can probably learn something from this, but it's just as flawed as it is helpful. 
+By: Nicholas Costa
+-->
+<!DOCTYPE html>
+<html lang="EN-US">
+    <head>
+        <title>Main Page</title>
+        <link rel="stylesheet" type="text/css" href="Styling.css" />
+        <meta charset="UTF-8" />
+    </head>
+
+    <body onload="setInterval(function(){upDate()}, 1)">
+        <script type="text/javascript" src="Script.js"></script>
+        <a href="Framework.html">
+            <div id="header" onclick="hide()">
+                 <h1 id="date">SOMETHINGWENTWRONG</h1>
+            </div>
+        </a>
+        <button id="revealButton" onclick="reveal()">A button</button>
+        <p id="explanatoryText"></p>
+        <div id="hover" onmouseover="change()" onmouseout="flee()">Mouse over me!</div>
+        <hr class="seperator" />
+        <input type="textfield" id="mathEnter" />
+        <br/>
+        <input type="textfield" id="otherNumber" />
+        <br/>
+        <select id="maths">
+            <option value="multiply">Multiply</option>
+            <option value="divide">Divide</option>
+            <option value="subtract">Subtract</option>
+            <option value="exponent">Exponent</option>
+            <option value="nroots">Nth Root</option>
+            <option value="add">Add</option>
+        </select>
+        <br/>
+        <button id="mathCalculate" onclick="calculate()">Calculate!</button>
+        <br/>
+        <input type="textfield" id="answer" />
+        <hr class="seperator" />
+        <p id="counter">0</p>
+        <button id="increment" onclick="increase()">Increase/Decrease</button>
+        <br/>
+        <input type="text" id="incrementer" placeholder="By how much?" />
+    </body>
+
+</html>
