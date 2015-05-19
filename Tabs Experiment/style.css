@@ -8,3 +8,13 @@
 li {
   list-style: none;
 }
+.frame {
+    width: 600px;
+    height: 450px;
+    margin: 0px auto;
+    border: 2px black solid;
+}
+.pictures {
+    width: 600px;
+    height: 450px;
+}
