@@ -8,11 +8,14 @@
 li {
   list-style: none;
 }
+body {
+    background-color: black;
+}
 .frame {
     width: 720px;
     height: 540px;
     margin: 0px auto;
-    border: 1px black solid;
+    border: 3px white solid;
     display: block;
 }
 .pictures {
@@ -22,14 +25,14 @@ li {
 .tabs li {
     margin-left: 0px;
     margin-right: 0px;
-    height: 30px;
-    width: 30px;
+    height: 50px;
+    width: 50px;
     display: inline-block;
-    background-color: lightgreen;
+    background-color: #41a841;
     border-radius: 100%;
 }
 .tabs {
-    width: 170px;
+    width: 270px;
     display: block;
     margin: 30px auto;
     padding: 0px;
