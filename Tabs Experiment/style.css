@@ -9,12 +9,28 @@ li {
   list-style: none;
 }
 .frame {
-    width: 600px;
-    height: 450px;
+    width: 720px;
+    height: 540px;
     margin: 0px auto;
-    border: 2px black solid;
+    border: 1px black solid;
+    display: block;
 }
 .pictures {
-    width: 600px;
-    height: 450px;
+    width: 720px;
+    height: 540px;
+}
+.tabs li {
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 30px;
+    width: 30px;
+    display: inline-block;
+    background-color: lightgreen;
+    border-radius: 100%;
+}
+.tabs {
+    width: 170px;
+    display: block;
+    margin: 30px auto;
+    padding: 0px;
 }
