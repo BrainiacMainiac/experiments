@@ -2,11 +2,11 @@
 // Starting variables
 var visible = false;
 var number = 0;
-var shtuff = "Hey! Thanks for clicking. This text serves no purpose, so go ahead and look at the other stuff here."
+var ☃ = "Hey! Thanks for clicking. This text serves no purpose, so go ahead and look at the other stuff here."
 // The "a button" uses this
 function reveal() {
     if (visible === false) {
-        document.getElementById("explanatoryText").innerHTML = shtuff;
+        document.getElementById("explanatoryText").innerHTML = ☃;
         visible = true;
     } else {
         document.getElementById("explanatoryText").innerHTML = "";
