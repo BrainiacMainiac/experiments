@@ -1,46 +1,62 @@
-<!-- A site I made a long time ago to learn JS. You can probably learn something from this, but it's just as flawed as it is helpful. 
-By: Nicholas Costa
+<!--
+    Code by Nicholas Costa
+    Created circa 2013 AD
+    Changed a lot circa 2015 AD
+    Free reuse allowed, but make sure to give credit.
 -->
 <!DOCTYPE html>
 <html lang="EN-US">
     <head>
-        <title>Main Page</title>
-        <link rel="stylesheet" type="text/css" href="Styling.css" />
+        <title>Calculator</title>
         <meta charset="UTF-8" />
+        <style>
+            * {
+                margin: 0px;
+                padding: 0px;
+            }
+            input {
+                display: inline;
+                border: 1px black solid;
+            }
+            select {
+                display: inline;
+                background: none;
+                border: none;
+                margin: 0px 20px;
+            }
+            .options {
+                display: flex;
+                justify-content: center;
+                margin-top: 50px;
+            }
+            #calcButton {
+                display: block;
+                margin: 10px auto;
+            }
+            #answer {
+                display: block;
+                margin: 0px auto;
+                background: none;
+                border: 1px black solid;
+            }
+        </style>
     </head>
-
-    <body onload="setInterval(function(){upDate()}, 1)">
-        <script type="text/javascript" src="Script.js"></script>
-        <a href="index.html">
-            <div id="header" onclick="hide()">
-                 <h1 id="date">Please enable JavaScript to take full advantage of this webpage.</h1>
-            </div>
-        </a>
-        <button id="revealButton" onclick="reveal()">A button</button>
-        <p id="explanatoryText"></p>
-        <div id="hover" onmouseover="change()" onmouseout="flee()">Mouse over me!</div>
-        <hr class="seperator" />
-        <input type="textfield" id="mathEnter" />
-        <br/>
-        <input type="textfield" id="otherNumber" />
-        <br/>
-        <select id="maths">
-            <option value="multiply">Multiply</option>
-            <option value="divide">Divide</option>
-            <option value="subtract">Subtract</option>
-            <option value="exponent">Exponent</option>
-            <option value="nroots">Nth Root</option>
-            <option value="add">Add</option>
-        </select>
-        <br/>
-        <button id="mathCalculate" onclick="calculate()">Calculate!</button>
-        <br/>
-        <input type="textfield" id="answer" />
-        <hr class="seperator" />
-        <p id="counter">0</p>
-        <button id="increment" onclick="increase()">Increase/Decrease</button>
-        <br/>
-        <input type="text" id="incrementer" placeholder="By how much?" />
+    <body>
+        <div class="options">
+            <input type="textfield" id="box1" />
+            <select id="options">
+                <option value="multiply">&#215;</option>
+                <option value="divide">&#247;</option>
+                <option value="subtract">&#45;</option>
+                <option value="exponent">&#94;</option>
+                <option value="nroots">&#8730;</option>
+                <option value="add">&#43;</option>
+            </select>
+            <input type="textfield" id="box2" />
+        </div>
+        <button id="calcButton">Calculate!</button>
+        <input type="textfield" id="answer" disabled/>
+        <script type="text/javascript" src="script.js"></script>
     </body>
 
 </html>
