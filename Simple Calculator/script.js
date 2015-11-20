@@ -50,3 +50,8 @@ function calculate() {
     }
 }
 addEventListener('click', calculate);
+addEventListener('keydown', function(e){
+    if (e.keyCode == 13){
+        calculate();
+    }
+})
